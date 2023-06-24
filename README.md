@@ -67,3 +67,6 @@ backtrader documentation
 yfinance documentation
 pandas_ta documentation
 matplotlib documentation
+
+![image](https://github.com/DhruvAjayToshniwal/Quant-Backtesting-Framework-v1.0/assets/57616258/59bdbf54-9fac-4f6f-a695-186449307552)
+
