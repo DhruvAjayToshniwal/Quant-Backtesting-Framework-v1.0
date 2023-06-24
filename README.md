@@ -12,7 +12,7 @@ The script fetches historical stock price data from Yahoo Finance using the `yfi
 
 The strategy generates buy and sell signals based on the SMA crossover and RSI conditions. It executes the orders using the `backtrader` framework.
 
-The project also includes a demonstration of calculating performance metrics such as final portfolio value, Sharpe Ratio, and drawdown using built-in analyzers from `backtrader`.
+The project also includes a demonstration of calculating performance metrics such as final portfolio value, Sharpe Ratio, and drawdown using built-in analyzers from `backtrader`. Additionally, it saves the equity curve plot as an image file.
 
 ## Features
 
@@ -21,7 +21,7 @@ The project also includes a demonstration of calculating performance metrics suc
 - Implements a strategy based on SMA crossover and RSI conditions
 - Executes buy and sell orders using `backtrader` framework
 - Calculates performance metrics including final portfolio value, Sharpe Ratio, and drawdown
-- Plots the equity curve of the backtest using `cerebro.plot()`
+- Saves the equity curve plot as an image file
 
 ## Requirements
 
@@ -29,3 +29,41 @@ The project also includes a demonstration of calculating performance metrics suc
 - `backtrader` library: Install with `pip install backtrader`
 - `yfinance` library: Install with `pip install yfinance`
 - `pandas_ta` library: Install with `pip install pandas_ta`
+- `matplotlib` library: Install with `pip install matplotlib`
+
+## Usage
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/quant-backtesting.git
+Install the required libraries:
+
+bash
+Copy code
+pip install -r requirements.txt
+Modify the script to define your desired stock symbol, date range, and strategy parameters.
+
+Run the script:
+
+bash
+Copy code
+python backtest.py
+View the backtest results, including final portfolio value, performance metrics, and the equity curve plot image saved as equity_curve.png.
+
+Results
+The backtest script generates the following results:
+
+Final Portfolio Value: The final value of the portfolio after running the backtest.
+Performance Metrics: The Sharpe Ratio and drawdown of the backtested strategy.
+Equity Curve Plot: The equity curve plot is saved as an image file named equity_curve.png.
+License
+This project is licensed under the MIT License.
+
+Feel free to modify and customize the code to suit your needs.
+
+Acknowledgements
+backtrader documentation
+yfinance documentation
+pandas_ta documentation
+matplotlib documentation
