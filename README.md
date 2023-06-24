@@ -39,9 +39,6 @@ The project also includes a demonstration of calculating performance metrics suc
    git clone https://github.com/DhruvAjayToshniwal/Quant-Backtesting-Framework-v1.0.git
 Install the required libraries:
 
-bash
-Copy code
-pip install -r requirements.txt
 Modify the script to define your desired stock symbol, date range, and strategy parameters.
 
 Run the script:
