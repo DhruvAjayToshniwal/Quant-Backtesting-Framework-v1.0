@@ -43,9 +43,7 @@ Modify the script to define your desired stock symbol, date range, and strategy 
 
 Run the script:
 
-bash
-Copy code
-python backtest.py
+Copy code and run it.
 View the backtest results, including final portfolio value, performance metrics, and the equity curve plot image saved as equity_curve.png.
 
 Results
