@@ -36,7 +36,7 @@ The project also includes a demonstration of calculating performance metrics suc
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/quant-backtesting.git
+   git clone https://github.com/DhruvAjayToshniwal/Quant-Backtesting-Framework-v1.0.git
 Install the required libraries:
 
 bash
